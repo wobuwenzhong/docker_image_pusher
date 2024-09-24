@@ -3,4 +3,9 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+--platform=linux/arm64 xiaoyaliu/alist--platform=linux/arm64 是命令行参数，用于指定要构建的平台。
+
+"xiaoyaliu/alist" 是项目名称，用于指定要构建的项目。
+
+因此，这个命令的意思是“使用 Linux/arm64 平台构建名为 'xiaoyaliu/alist' 的项目”。
+gradle
